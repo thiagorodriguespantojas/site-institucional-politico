@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "Prisma.prisma",
+    "GraphQL.vscode-graphql",
+    "ms-azuretools.vscode-docker",
+    "nestjs.nestjs-files",
+    "formulahendry.auto-rename-tag"
+  ]
+}
