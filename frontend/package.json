@@ -5,6 +5,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
+    "start": "nest start",
+    "start:dev": "ts-node -r tsconfig-paths/register src/main.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "release": "standard-version",
+    "changelog": "standard-version --dry-run --skip.tag --skip.commit"
   },
   "dependencies": {
     "next": "^13.4.0",
