@@ -8,6 +8,7 @@
 ---
 
 ## Tecnologias
+
 - Next.js + Tailwind (Frontend)
 - NestJS + Prisma + Redis (Backend)
 - Prometheus + Grafana (Monitoring)
@@ -30,3 +31,4 @@ Backend: http://localhost:3001
 Prometheus: http://localhost:9090
 
 Grafana: http://localhost:3002
+```
