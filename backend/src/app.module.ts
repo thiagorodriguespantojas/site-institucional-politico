@@ -4,7 +4,7 @@ import { ProposalModule } from "./proposal/proposal.module";
 import { VoteModule } from "./vote/vote.module";
 import { MetricsModule } from "./metrics/metrics.module";
 import { CacheModule } from "@nestjs/cache-manager";
-import redisStore from "cache-manager-redis-store";
+import * as redisStore from "cache-manager-ioredis";
 import { PrismaService } from "./prisma.service";
 
 @Module({

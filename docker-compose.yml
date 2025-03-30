@@ -4,6 +4,9 @@ services:
   backend:
     build:
       context: ./backend
+    volumes:
+      - ./backend:/app
+      - /app/node_modules # Evita sobrescrever node_modules com o da máquina
     ports:
       - "3001:3001"
     depends_on:

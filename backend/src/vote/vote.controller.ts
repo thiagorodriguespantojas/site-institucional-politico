@@ -1,7 +1,7 @@
-import { Controller, Get, Post } from '@nestjs/common';
-import { VoteService } from './vote.service';
+import { Controller, Get, Post } from "@nestjs/common";
+import { VoteService } from "./vote.service";
 
-@Controller('vote')
+@Controller("vote")
 export class VoteController {
   constructor(private readonly voteService: VoteService) {}
 
